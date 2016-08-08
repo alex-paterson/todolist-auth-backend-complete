@@ -1,0 +1,27 @@
+{
+  "name": "todo-list-auth-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexander Paterson <=> (http://alexanderpaterson.com)",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "jwt-simple": "^0.5.0",
+    "mongoose": "^4.5.8",
+    "morgan": "^1.7.0",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.1.0",
+    "passport-local": "^1.0.0",
+    "uuid": "^2.0.2"
+  },
+  "engines": {
+    "node": "6.2.1"
+  }
+}
